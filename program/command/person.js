@@ -1,7 +1,4 @@
 // ./program/command/person.js
-const seneca = require('seneca')()
-seneca.use(require('seneca-basic'))
-seneca.use(require('seneca-entity'))
 module.exports = {
   /**
    * @api {post} /person/
@@ -10,12 +7,25 @@ module.exports = {
    * Probably a POST.
    */
   create: (request, done) => {
-
-    var person = seneca.make('person')
     var body = JSON.parse(request.args.body)
-    person.name = body.name
-    console.log(person)
-    person.save$(console.log)
+
+    // So ideally a person would be created and at the outset produce a
+    // LoanAction...
+    // const Person = require('../model/person')(request).init(body)
+    // const LoanAction = require('../action/loan/index')(request)
+    // const Status200 = require('../status/200/index')(request)
+    // const Status301 = require('../status/301/index')(request)
+
+    // Person((callback) => {
+    //   LoanAction(person).then((loan) => {
+    //     Status200(loan).then((response) => {
+    //       done(null, response)
+    //     })
+    //     Status301(loan).then((response) => {
+    //       done(null, response)
+    //     })
+    //   })
+    // })
 
     var output = {
       create: true
