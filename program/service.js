@@ -47,10 +47,10 @@ const config = {
   adapter : require('seneca-web-adapter-express'),
   context : app
 }
-seneca.
-  use(api).
-  use(senecaWeb, config).
-  ready((error) => {
+seneca
+  .use(api)
+  .use(senecaWeb, config)
+  .ready((error) => {
     if (error) {
       console.log('API failed to load.')
       return process.exit(1)
