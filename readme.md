@@ -37,4 +37,4 @@ some broken manual somewhere that needs to be fixed?</p>
 
 Coming soon...
 
-[action]: https://schema.org/Action)
+[action]: https://schema.org/Action
