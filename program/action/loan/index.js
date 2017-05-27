@@ -3,9 +3,9 @@ const defer = require('defer')
 function LoanAction (request) {
   function perform (concept) {
     var d = defer()
-    concept.target = ''
-    d.resolve(concept)
-    return (concept) => {
+    return (target) => {
+      concept.target = target
+      d.resolve(concept)
       return d.promise
     }
   }

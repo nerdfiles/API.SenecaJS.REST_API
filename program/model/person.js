@@ -6,7 +6,7 @@ const seneca = require('seneca')()
 // const personEventStream = entSaveStream(seneca, { name$: 'person' })
 seneca.use(require('seneca-basic'))
 seneca.use(require('seneca-entity'))
-function Person (request) {
+function Person () {
   function init (body) {
     const person = seneca.make('person')
     person.name = body.name
