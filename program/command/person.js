@@ -11,21 +11,24 @@ module.exports = {
 
     // So ideally a person would be created and at the outset produce a
     // LoanAction...
-    // const Person = require('../model/person')(request).init(body)
-    // const LoanAction = require('../action/loan/index')(request)
+    // const InitPerson = require('../model/person')(request).init(body)
+    // const InitLoanAction = require('../action/loan/index')(request)
     // const Status200 = require('../status/200/index')(request)
     // const Status301 = require('../status/301/index')(request)
+    // const InitPerson2 = require('../model/person')(request).init()
 
-    // Person((callback) => {
-    //   LoanAction(person).then((loan) => {
-    //     Status200(loan).then((response) => {
-    //       done(null, response)
-    //     })
-    //     Status301(loan).then((response) => {
-    //       done(null, response)
-    //     })
-    //   })
-    // })
+    InitPerson((person) => {
+      ReqLoanAction(person).perform(person2).then((loan) => {
+        Status200(loan).then((response) => {
+          done(null, response)
+        })
+        Status301(loan).then((response) => {
+          done(null, response)
+        })
+      })
+    }).catch((error) => {
+      console.log(error)
+    })
 
     var output = {
       create: true
