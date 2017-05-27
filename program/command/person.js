@@ -11,11 +11,12 @@ module.exports = {
 
     // So ideally a person would be created and at the outset produce a
     // LoanAction...
-    // const InitPerson = require('../model/person')(request).init(body)
-    // const InitLoanAction = require('../action/loan/index')(request)
-    // const Status200 = require('../status/200/index')(request)
-    // const Status301 = require('../status/301/index')(request)
+    const InitPerson = require('../model/person')(request).init(body)
+    const InitLoanAction = require('../action/loan/index')(request)
+    const Status200 = require('../status/200/index')(request)
+    const Status301 = require('../status/301/index')(request)
     // const InitPerson2 = require('../model/person')(request).init()
+    var person2 = Object.create({ noop: () => {} }, { name: { value: 'None', enumerable: true } })
 
     InitPerson((person) => {
       ReqLoanAction(person).perform(person2).then((loan) => {
