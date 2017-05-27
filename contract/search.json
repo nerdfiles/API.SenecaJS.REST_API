@@ -2,20 +2,8 @@
   "prefix": "/api/search",
   "pin": "role:api,cmd:*",
   "map": {
-    "searchSimple": {
+    "search": {
        "GET": true
-    },
-    "searchAdvanced": {
-       "POST": true
-    },
-    "searchExplorer": {
-       "POST": true
-    },
-    "searchSurfer": {
-       "POST": true
-    },
-    "searchDownload": {
-       "POST": true
     }
   }
 }
