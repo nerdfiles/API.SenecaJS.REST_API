@@ -19,3 +19,22 @@
         "body": "yellowfish"
       }
     }
+
+## wut?
+
+Do [*actions*][action] from or against *models* as *role*-based *commands* which
+will result in *statuses*. Configure *contracts* and *components* to taste,
+bearing in mind...
+
+<blockquote>
+<p>If the engine of application state (and hence the API) is not being driven by
+hypertext, then it cannot be RESTful and cannot be a REST API. Period. Is there
+some broken manual somewhere that needs to be fixed?</p>
+<div><cite>Roy Fielding</cite></div>
+</blockquote>
+
+## Updates
+
+Coming soon...
+
+[action]: https://schema.org/Action)
