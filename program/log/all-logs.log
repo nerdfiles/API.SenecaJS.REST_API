@@ -1,0 +1,9 @@
+{"level":"info","message":"::1 - - [27/May/2017:15:17:39 +0000] \"GET / HTTP/1.1\" 404 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56\"\n","timestamp":"2017-05-27T15:17:39.462Z"}
+{"level":"info","message":"::1 - - [27/May/2017:15:18:45 +0000] \"GET /api/noop HTTP/1.1\" 200 212 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.138 Safari/537.36 Vivaldi/1.8.770.56\"\n","timestamp":"2017-05-27T15:18:45.690Z"}
+{"level":"info","message":"::1 - - [27/May/2017:15:21:13 +0000] \"GET /api/noop HTTP/1.1\" 200 211 \"-\" \"curl/7.43.0\"\n","timestamp":"2017-05-27T15:21:13.520Z"}
+{"level":"info","message":"::1 - - [27/May/2017:15:30:14 +0000] \"GET /api/noop HTTP/1.1\" 200 209 \"-\" \"curl/7.43.0\"\n","timestamp":"2017-05-27T15:30:14.430Z"}
+{"level":"info","message":"::1 - - [27/May/2017:15:30:19 +0000] \"GET /api/noop HTTP/1.1\" 200 215 \"-\" \"curl/7.43.0\"\n","timestamp":"2017-05-27T15:30:19.899Z"}
+{"level":"info","message":"::1 - - [27/May/2017:15:30:29 +0000] \"GET /api/noop HTTP/1.1\" 200 212 \"-\" \"curl/7.43.0\"\n","timestamp":"2017-05-27T15:30:29.707Z"}
+{"level":"info","message":"::1 - - [27/May/2017:15:31:28 +0000] \"GET /api/noop HTTP/1.1\" 200 211 \"-\" \"curl/7.43.0\"\n","timestamp":"2017-05-27T15:31:28.349Z"}
+{"level":"info","message":"::1 - - [27/May/2017:15:31:42 +0000] \"GET /api/noop HTTP/1.1\" 200 213 \"-\" \"curl/7.43.0\"\n","timestamp":"2017-05-27T15:31:42.817Z"}
+{"level":"info","message":"::1 - - [27/May/2017:15:31:52 +0000] \"GET /api/noop HTTP/1.1\" 200 209 \"-\" \"curl/7.43.0\"\n","timestamp":"2017-05-27T15:31:52.578Z"}

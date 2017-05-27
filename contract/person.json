@@ -1,0 +1,24 @@
+{
+  "prefix": "/api",
+  "pin": "role:api,cmd:*",
+  "map": {
+    "people": {
+      "GET": true
+    },
+    "person": {
+      "GET": true
+    },
+    "person/create": {
+      "POST": true
+    },
+    "person/remove": {
+      "DELETE": true
+    },
+    "person/update": {
+      "PUT": true
+    },
+    "person/update/inline": {
+      "PATCH": true
+    }
+  }
+}

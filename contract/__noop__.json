@@ -1,0 +1,9 @@
+{
+  "prefix": "/api",
+  "pin": "role:api,cmd:*",
+  "map": {
+    "noop": true
+  }
+}
+
+
