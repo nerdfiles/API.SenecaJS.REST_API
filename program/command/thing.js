@@ -1,8 +1,8 @@
 // ./program/command/thing.js
 module.exports = {
-  get: (args, done) => {
+  get: (request, done) => {
     done(null, {
-      msg: null
+      data: null
     })
   }
 }

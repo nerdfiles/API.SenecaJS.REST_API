@@ -7,7 +7,7 @@ module.exports = {
     var response = request('GET', url);
     var output = {
       name : 'noop',
-      body : response.body.toString('utf-8')
+      data : response.body.toString('utf-8')
     };
     var resource = new hal.Resource(output, '/noop');
     resource.link('test', '/noop/test');

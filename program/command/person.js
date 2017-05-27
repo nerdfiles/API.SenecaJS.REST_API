@@ -45,7 +45,7 @@ module.exports = {
 
     const response = {
       statusCode : 200,
-      body       : output,
+      data       : output,
     }
 
     done(null, response)
@@ -78,7 +78,7 @@ module.exports = {
 
     const response = {
       statusCode : 200,
-      body       : output,
+      data       : output,
     }
 
     done(null, response)
@@ -98,7 +98,7 @@ module.exports = {
 
     const response = {
       statusCode : 200,
-      body       : output,
+      data       : output,
     }
 
     done(null, response)
@@ -118,7 +118,7 @@ module.exports = {
 
     const response = {
       statusCode : 200,
-      body       : output,
+      data       : output,
     }
 
     done(null, response)
@@ -138,7 +138,7 @@ module.exports = {
 
     const response = {
       statusCode : 200,
-      body       : output,
+      data       : output,
     }
 
     done(null, response)

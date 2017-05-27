@@ -16,7 +16,7 @@
           }
         },
         "name": "noop",
-        "body": "yellowfish"
+        "data": "yellowfish"
       }
     }
 

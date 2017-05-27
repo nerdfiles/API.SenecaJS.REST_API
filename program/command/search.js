@@ -1,13 +1,13 @@
 // ./program/command/searchSimple.js
 module.exports = {
-  get: (args, done) => {
+  get: (request, done) => {
     var output = JSON.stringify({
       message : '',
       input   : event,
     })
     const response = {
       statusCode : 200,
-      body       : output,
+      data       : output,
     }
     done(null, response)
  }
