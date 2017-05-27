@@ -16,7 +16,14 @@ module.exports = {
     const Status200 = require('../status/200/index')(request)
     const Status301 = require('../status/301/index')(request)
     // const InitPerson2 = require('../model/person')(request).init()
-    var person2 = Object.create({ noop: () => {} }, { name: { value: 'None', enumerable: true } })
+    var person2 = Object.create({
+      noop: () => {}
+    }, {
+      name: {
+        value: 'None',
+        enumerable: true
+      }
+    })
 
     InitPerson((person) => {
       ReqLoanAction(person).perform(person2).then((loan) => {
