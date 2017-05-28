@@ -1,3 +1,4 @@
+// ./program/component/cors.js
 module.exports = function (app) {
   app.use((request, response, next) => {
     var allowedOrigins = [
