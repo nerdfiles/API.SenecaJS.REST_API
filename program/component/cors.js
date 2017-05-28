@@ -2,7 +2,7 @@
 module.exports = function (app) {
   app.use((request, response, next) => {
     var allowedOrigins = [
-      'http://localhost:3000'
+      'http://localhost:9001'
     ]
     var origin = request.headers.origin
     if(allowedOrigins.indexOf(origin) > -1) {
