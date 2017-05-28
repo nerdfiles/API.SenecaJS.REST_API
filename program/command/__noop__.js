@@ -11,10 +11,10 @@ module.exports = {
     };
     var resource = new hal.Resource(output, '/noop');
     resource.link('test', '/noop/test');
-    const responseConstruct = {
-      statusCode : 200,
-      data       : resource.toJSON()
-    };
-    done(null, responseConstruct);
+    // const responseConstruct = {
+    //   statusCode : 200,
+    //   data       : resource.toJSON()
+    // };
+    done(null, resource.toJSON());
   }
 };
