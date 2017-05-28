@@ -1,9 +1,18 @@
 # API.SenecaJS.REST_API
 
     $ npm i && npm i jq -g
-    $ node index.js -h
-    $ npm run index service
-    $ curl http://localhost:8081/api/noop | jq '.'
+    $ bin/program -h
+    $ bin/program service
+
+Elsewhere:
+
+    $ source scripts/resty.sh
+    $ resty.set 'http://localhost:8081/api'
+    $ GET /noop | jq '.'
+
+We should see a broke-ass HAL-ish JSON output:
+
+```json
     {
       "statusCode": 200,
       "data": {
@@ -19,6 +28,7 @@
         "data": "yellowfish"
       }
     }
+```
 
 ## wut?
 
