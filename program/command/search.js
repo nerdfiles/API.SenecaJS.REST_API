@@ -1,4 +1,4 @@
-// ./program/command/searchSimple.js
+// ./program/command/search.js
 module.exports = {
   get: (request, done) => {
     var output = JSON.stringify({
