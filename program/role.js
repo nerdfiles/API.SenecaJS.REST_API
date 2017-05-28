@@ -11,7 +11,7 @@ function Role () {
     personRemove       : person.remove,
     personUpdate       : person.update,
     personInlineUpdate : person.inlineUpdate,
-    simpleSearch       : searchSimple.get
+    search             : search.get
   }
   return roleInterface
 }
