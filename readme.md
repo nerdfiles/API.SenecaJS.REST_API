@@ -13,21 +13,21 @@ Elsewhere:
 We should see a broke-ass HAL-ish JSON output:
 
 ```json
-    {
-      "statusCode": 200,
-      "data": {
-        "_links": {
-          "self": {
-            "href": "/noop"
-          },
-          "test": {
-            "href": "/noop/test"
-          }
-        },
-        "name": "noop",
-        "data": "yellowfish"
+{
+  "statusCode": 200,
+  "data": {
+    "_links": {
+      "self": {
+        "href": "/noop"
+      },
+      "test": {
+        "href": "/noop/test"
       }
-    }
+    },
+    "name": "noop",
+    "data": "yellowfish"
+  }
+}
 ```
 
 ## wut?
