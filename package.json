@@ -3,8 +3,6 @@
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
-    "index": "node index.js",
-    "cli": "node ./program/cli.js",
     "db": "mongod --fork --logpath ./mongod.log"
   },
   "repository": {

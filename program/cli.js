@@ -8,7 +8,8 @@ const cli = __parser__(function () {/*!
 API.SenecaJS.REST_API
 
 Usage:
-  program service
-  program -h | --help
+  🔳  service
+  🔳  --help
+  🔳  --version
 */})
 module.exports = cli
