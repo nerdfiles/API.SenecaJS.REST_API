@@ -4,3 +4,7 @@
 {"level":"info","message":"::1 - - [17/Mar/2020:16:02:35 +0000] \"GET /api/noop HTTP/1.1\" 500 1235 \"-\" \"curl/7.64.1\"\n","timestamp":"2020-03-17T16:02:35.466Z"}
 {"level":"info","message":"::1 - - [17/Mar/2020:16:05:37 +0000] \"GET /api/noop HTTP/1.1\" 200 25792 \"-\" \"curl/7.64.1\"\n","timestamp":"2020-03-17T16:05:37.387Z"}
 {"level":"info","message":"::1 - - [17/Mar/2020:16:07:10 +0000] \"GET /api/noop HTTP/1.1\" 200 7414 \"-\" \"curl/7.64.1\"\n","timestamp":"2020-03-17T16:07:10.859Z"}
+{"level":"info","message":"::1 - - [17/Mar/2020:16:20:01 +0000] \"GET /api/noop HTTP/1.1\" 200 7413 \"-\" \"curl/7.64.1\"\n","timestamp":"2020-03-17T16:20:01.358Z"}
+{"level":"info","message":"::1 - - [17/Mar/2020:16:24:24 +0000] \"GET /api/noop HTTP/1.1\" 200 7501 \"-\" \"curl/7.64.1\"\n","timestamp":"2020-03-17T16:24:24.807Z"}
+{"level":"info","message":"::1 - - [17/Mar/2020:16:26:20 +0000] \"GET /api/noop HTTP/1.1\" 200 103 \"-\" \"curl/7.64.1\"\n","timestamp":"2020-03-17T16:26:20.558Z"}
+{"level":"info","message":"::1 - - [17/Mar/2020:16:26:25 +0000] \"GET /api/noop HTTP/1.1\" 200 97 \"-\" \"curl/7.64.1\"\n","timestamp":"2020-03-17T16:26:25.891Z"}
