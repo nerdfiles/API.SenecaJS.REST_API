@@ -3,7 +3,8 @@ const request = require('sync-request');
 const hal = require('hal');
 module.exports = {
   initialize: (args, done) => {
-    var url = 'http://www.setgetgo.com/randomword/get.php';
+    //var url = 'https://randomwordgenerator.com/fake-word.php';
+    var url = 'https://randomword.com/';
     var response = request('GET', url);
     var output = {
       name : 'noop',
