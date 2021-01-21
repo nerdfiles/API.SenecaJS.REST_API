@@ -51,7 +51,7 @@
     "seneca-postgresql-store": "^2.3.0",
     "seneca-web": "^2.0.0",
     "seneca-web-adapter-express": "^1.0.2",
-    "socket.io": "^1.7.2",
+    "socket.io": "^2.4.0",
     "susy": "^2.2.12",
     "sync-request": "^4.0.1",
     "winston": "^2.3.1"
