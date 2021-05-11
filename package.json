@@ -80,7 +80,7 @@
     "karma-requirejs": "^1.1.0",
     "karma-simple-reporter": "^2.0.0",
     "load-grunt-tasks": "^3.5.2",
-    "lodash": "^4.17.2",
+    "lodash": "^4.17.21",
     "mochawesome": "^1.5.4",
     "protractor": "^4.0.11",
     "pryjs": "^1.0.3",
