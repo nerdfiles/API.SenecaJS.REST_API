@@ -19,7 +19,7 @@
     "cookie-parser": "^1.4.3",
     "cryptojs": "^2.5.3",
     "docopt-js": "^1.0.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-session": "^1.14.2",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-jshint": "^1.1.0",
